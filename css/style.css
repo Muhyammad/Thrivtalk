@@ -1,0 +1,509 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v25-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v25-latin-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/montserrat-v25-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */
+    url("../fonts/montserrat-v25-latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/montserrat-v25-latin-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/montserrat-v25-latin-regular.svg#Montserrat") format("svg");
+  /* Legacy iOS */
+}
+
+html {
+  align-items: center;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 1440;
+  height: 5969;
+}
+
+/* header */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.2s linear;
+  padding-bottom: 20px;
+  margin-bottom: 173px;
+  margin-bottom: 180px;
+}
+
+.hader_logo-linek {
+  margin-left: 250px;
+  margin-right: 460px;
+}
+
+.header_wrapper {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+}
+
+.header_list {
+  margin-right: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 220px;
+}
+
+.header_item {
+  margin-right: 82px;
+}
+
+.header_item:last-child {
+  margin-right: 0px;
+}
+
+.button_header {
+  margin-top: -20px;
+  margin-right: 274px;
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: none;
+  background: #62D0DF;
+}
+
+.border {
+  border: 2px solid transparent;
+  border-bottom: ridge;
+}
+
+/* header */
+/* intro */
+.intro {
+  width: 1900px;
+  height: 980px;
+  background: url(../img/Rectangle\ 3.png) no-repeat center;
+  background-size: cover;
+  padding-top: 165px;
+  padding-bottom: 423px;
+}
+
+.intro_title {
+  width: 560px;
+  height: 101px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+  color: #22356F;
+  margin-bottom: 60px;
+}
+
+.intro_sub-title {
+  width: 560px;
+  height: 167px;
+  color: #22356F;
+  font-size: 24px;
+  line-height: 42px;
+  margin-bottom: 110px;
+  font-size: 25px;
+  line-height: 45px;
+}
+
+.search-form_submit {
+  font-size: 16px;
+  line-height: 23px;
+  align-items: center;
+  color: white;
+  background: #F9B640;
+  text-align: center;
+  border: 0;
+  padding: 10px 30px;
+}
+
+.search-form_submit:hover,
+.search-form_submit:active,
+.search-form_submit:focus {
+  opacity: 0.65;
+}
+
+.margin-left {
+  margin-left: 250px;
+  margin-bottom: 88px;
+}
+
+.float_left {
+  float: left;
+
+}
+
+.float_right {
+  border-radius: 50%;
+  margin-right: 300px;
+  float: right;
+  width: 500px;
+  height: 460px;
+}
+
+.submit_nono-border {
+  font-size: 20px;
+  color: orange;
+  background-color: transparent;
+}
+
+/* intro */
+
+
+.weyper_triw {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: #62D0DF;
+  width: 1902px;
+  height: 603px;
+  margin-bottom: 10px;
+
+}
+
+
+.triw_title {
+  width: 240px;
+  height: 51px;
+  margin-left: 250px;
+  margin-bottom: 75px;
+  font-size: 45px;
+  line-height: 30px;
+  letter-spacing: -0.006em;
+
+  color: #FFFFFF;
+}
+
+.triw_sub-tittle {
+  margin-left: 250px;
+  width: 600px;
+  height: 235px;
+  font-size: 24px;
+  line-height: 35px;
+  margin-bottom: 95px;
+
+  color: #FFFFFF;
+}
+
+.span {
+  font-size: 35px;
+  line-height: 25px;
+}
+
+/*  */
+.About {
+  margin-bottom: 24px;
+}
+
+.about {
+  width: 1332px;
+  height: 303px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.about_us {
+  width: 320px;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 50px 50px 230px 240px;
+  color: #22356F;
+}
+
+.about_title {
+  width: 555px;
+  font-size: 24px;
+  line-height: 34px;
+  margin: 150px 0px 60px 0px;
+  color: #22356F;
+}
+
+.about_link {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgba(34, 53, 111, 0.5);
+  margin-left: 900px;
+  transform: none;
+  text-decoration: none;
+}
+
+/*  */
+
+.bloks {
+  display: grid;
+  grid-template-columns: repeat(4, 475.5px);
+  grid-template-rows: 420.5px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.bloks_title {
+  width: 223px;
+  margin-top: 95px;
+  border-top: 2px solid #FFFFFF;
+  padding-top: 30px;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  margin-left: 127px;
+  color: #FFFFFF
+}
+
+/*  */
+
+
+/*  */
+.bloks_six {
+  display: grid;
+  grid-template-columns: 633px 633px 633px;
+  grid-template-rows: 633px 633px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.bloks_title_six {
+  width: 200px;
+  margin-top: 95px;
+  border-top: 2px solid #FFFFFF;
+  padding-top: 30px;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  margin-left: 206px;
+  color: #FFFFFF;
+}
+
+.img_six {
+  width: 633px;
+  height: 633px;
+  background: url(/img/burger-bulka-kotleta-salat-pomidor-syr-luk-dereviannyi-stol.jpg) center;
+}
+
+/*  */
+/*  */
+.bloks_six-title {
+  display: grid;
+  grid-template-columns: 633px 633px 633px;
+  grid-template-rows: 333px 333px;
+  text-align: center;
+
+}
+
+.bloks_title_six-title {
+  width: 300px;
+  padding-top: 30px;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  margin-left: 150px;
+  color: black;
+}
+
+.bloks_title_six-title_h2 {
+  margin-top: 30px;
+  font-size: 38px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #22356F;
+  margin-bottom: 30px;
+}
+
+.bloks_title_six-title_sub {
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+
+  color: rgba(34, 53, 111, 0.5);
+}
+
+/*  */
+
+
+.weyper_triw-beta {
+  display: flex;
+  align-items: flex-start;
+  background-color: whitesmoke;
+  width: 1902px;
+  height: 800px;
+}
+
+
+.triw_title-beta {
+  margin-bottom: 225px;
+  font-size: 16px;
+  line-height: 12px;
+}
+
+.triw_sub-tittle-beta {
+  width: 670px;
+  font-size: 36px;
+  line-height: 53px;
+  margin-bottom: 180px;
+}
+
+.techdaun {
+  margin-top: 106px;
+  margin-left: 203px;
+}
+
+.button_info {
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  border: none;
+  color: #FAB63E;
+  background-color: transparent;
+}
+
+/*  */
+/*  */
+.weyper_triw-charly {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #22356F;
+  width: 1900px;
+  height: 800px;
+
+}
+
+.charly {
+  margin-left: 180px;
+  margin-top: 103px;
+  margin-bottom: 42px;
+}
+
+
+.triw_title-charly {
+  margin-left: 270px;
+  margin-top: 103px;
+  width: 150px;
+  height: 107px;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  margin-bottom: 120px;
+  color: #FFFFFF;
+
+}
+
+.triw_titl {
+  margin-left: 270px;
+  width: 704px;
+  height: 66px;
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+  margin-bottom: 75px;
+  color: #FFFFFF;
+}
+
+.triw_sub-tittle-charly {
+  margin-left: 270px;
+  width: 579px;
+  height: 255px;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+
+  color: #FFFFFF;
+
+}
+
+.button_info_charly {
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  margin-left: 270px;
+  color: #62D0DF;
+  background-color: transparent;
+  border: none;
+}
+
+
+/*  */
+/*  */
+.weyper_triw-delta {
+  display: grid;
+  grid-template-columns: 570px 443px 443px 443px;
+  grid-template-rows: 380px;
+  text-align: left;
+}
+
+.font_charly {
+  margin-left: 90px;
+  margin-top: 130px;
+  margin-bottom: 35px;
+  font-size: 20px;
+  line-height: 11px;
+  color: #22356F;
+}
+
+.font_sub-title {
+  width: 207px;
+  height: 60px;
+  margin-left: 90px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  color: rgba(34, 53, 111, 0.5);
+}
+
+/*  */
+/*  */
+
+.footer {
+  width: 1900px;
+  height: 80px;
+  background-color: #62D0DF;
+  ;
+}
+
+.footer_link {
+  padding: 32px;
+  margin-left: 330px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+
+/*  */
